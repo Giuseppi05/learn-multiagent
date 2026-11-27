@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Equipo Aprende Multiagente",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled", "top": 300, "left": 130, "attrs": { "i2cAddress": "0x3c" } },
+    { "type": "wokwi-potentiometer", "id": "pot", "top": -130, "left": 120, "attrs": {} },
+    { "type": "wokwi-buzzer", "id": "bz", "top": -140, "left": 250, "attrs": { "volume": "0.2" } },
+    { "type": "wokwi-led", "id": "led", "top": -150, "left": -40, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": -90, "left": -20, "attrs": { "value": "220" } },
+    { "type": "wokwi-pushbutton", "id": "btnA", "top": 0, "left": 400, "attrs": { "color": "green", "key": "a" } },
+    { "type": "wokwi-pushbutton", "id": "btnB", "top": 60, "left": 360, "attrs": { "color": "red", "key": "b" } },
+    { "type": "wokwi-pushbutton", "id": "btnC", "top": 120, "left": 320, "attrs": { "color": "yellow", "key": "c" } },
+    { "type": "wokwi-pushbutton", "id": "btnD", "top": 180, "left": 280, "attrs": { "color": "blue", "key": "d" } }
+  ],
+  "connections": [
+    [ "btnA:1.l", "uno:2", "green", [] ],
+    [ "btnA:2.r", "uno:GND.1", "black", [] ],
+    [ "btnB:1.l", "uno:3", "red", [] ],
+    [ "btnB:2.r", "uno:GND.1", "black", [] ],
+    [ "btnC:1.l", "uno:4", "gold", [] ],
+    [ "btnC:2.r", "uno:GND.1", "black", [] ],
+    [ "btnD:1.l", "uno:5", "blue", [] ],
+    [ "btnD:2.r", "uno:GND.1", "black", [] ],
+    [ "pot:GND", "uno:GND.2", "black", [] ],
+    [ "pot:VCC", "uno:5V", "red", [] ],
+    [ "pot:SIG", "uno:A0", "green", [] ],
+    [ "oled:GND", "uno:GND.3", "black", [] ],
+    [ "oled:VCC", "uno:5V", "red", [] ],
+    [ "oled:SCL", "uno:A5", "green", [] ],
+    [ "oled:SDA", "uno:A4", "violet", [] ],
+    [ "uno:13", "r1:1", "orange", [] ],
+    [ "r1:2", "led:A", "orange", [] ],
+    [ "led:C", "uno:GND.1", "black", [] ],
+    [ "bz:1", "uno:GND.1", "black", [] ],
+    [ "bz:2", "uno:8", "cyan", [] ]
+  ],
+  "dependencies": {}
+}

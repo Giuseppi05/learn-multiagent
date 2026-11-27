@@ -2,6 +2,15 @@
 
 Sistema multiagente basado en IA para personalizar contenido pedagógico en estudiantes de primaria de Lima (2026).
 
+## Despliegue
+
+| Componente | Plataforma | Enlace |
+| --- | --- | --- |
+| Demo (frontend Next.js) | Vercel | https://learn-multiagent.vercel.app |
+| API (FastAPI, Orquestador y agentes) | Render | https://learn-multiagent.onrender.com/health |
+| Base de datos y autenticación | Supabase | — |
+| Maqueta de Isla Aprende (XR) | GitHub Pages | https://giuseppi05.github.io/learn-island/ |
+
 ## Problema
 
 El docente de primaria prepara, adapta y corrige a mano el material de cada estudiante. Con aulas numerosas termina usando un material de «talla única» que no responde a los distintos niveles y ritmos. Este sistema automatiza el diagnóstico, la generación, la adaptación y la evaluación con agentes de IA. El docente pasa a supervisar y validar: nada llega al estudiante sin su aprobación.
@@ -85,6 +94,26 @@ Las pruebas no llaman a Gemini ni a Supabase: usan dobles locales y tokens firma
 5. **Estudiante:** lee el material, consulta al asistente y responde marcando su confianza. Recibe la retroalimentación del Evaluador.
 6. **Docente:** revisa la actividad del Agente de Refuerzo Conceptual (si hubo errores con mucha seguridad), el siguiente material que propuso el Orquestador, el semáforo, las alertas y la **Trazabilidad**.
 
+## Estructura de la entrega
+
+| Elemento | Contenido |
+| --- | --- |
+| [`Informe_Final.pdf`](Informe_Final.pdf) | Informe final del proyecto |
+| `Presentacion_Final.pptx` | Presentación final (pendiente de subir) |
+| `Video_Demostrativo.mp4` | Video demostrativo (pendiente de subir) |
+| [`Diagramas/`](Diagramas) | Diagramas AS-IS, TO-BE, arquitectura, pipeline CI/CD, IoT, flujos y arquitectura integral |
+| [`Prototipo/`](Prototipo) | Mando de respuestas en Wokwi y enlaces a la plataforma y a Isla Aprende |
+| [`Evidencias/`](Evidencias) | Capturas de DevOps, banco de prompts, IoT, Make, Isla Aprende y plataforma desplegada |
+| [`Repositorio_GitHub.txt`](Repositorio_GitHub.txt) | Enlaces al repositorio y a los despliegues |
+| [`backend/`](backend) y [`frontend/`](frontend) | Código de la plataforma multiagente |
+
 ## Integrantes
 
-_Completar con los nombres del equipo._
+- Airton Milton Giuseppi Saavedra Atoche
+- Josue Abrham Ayala Valladolid
+- Sebastian Delmy Neyra Pinaud
+- Fabiana Sofia Diaz Saenz
+- Fabiana Gerónimo Ormeño
+- Steffano Jose Arnao Llavilla
+
+Curso: Herramientas de Desarrollo Profesional TIC · Docente: Eleodoro Orbegoso Carrera · Facultad de Ingeniería, 2026.

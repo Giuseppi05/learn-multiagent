@@ -1,0 +1,8 @@
+Proyecto: Desarrollo de un sistema multiagente basado en IA para la personalización de contenido pedagógico en estudiantes del nivel primario de instituciones educativas de Lima, 2026
+Curso: Herramientas de Desarrollo Profesional TIC
+
+Repositorio (plataforma multiagente): https://github.com/Giuseppi05/learn-multiagent
+Plataforma desplegada (Vercel):        https://learn-multiagent.vercel.app
+API desplegada (Render):               https://learn-multiagent.onrender.com/health
+Repositorio de Isla Aprende:           https://github.com/Giuseppi05/learn-island
+Maqueta de Isla Aprende:               https://giuseppi05.github.io/learn-island/
