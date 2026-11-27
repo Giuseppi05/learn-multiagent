@@ -98,7 +98,6 @@ Las pruebas no llaman a Gemini ni a Supabase: usan dobles locales y tokens firma
 
 | Elemento | Contenido |
 | --- | --- |
-| [`Informe_Final.pdf`](Informe_Final.pdf) | Informe final del proyecto |
 | `Presentacion_Final.pptx` | Presentación final (pendiente de subir) |
 | `Video_Demostrativo.mp4` | Video demostrativo (pendiente de subir) |
 | [`Diagramas/`](Diagramas) | Diagramas AS-IS, TO-BE, arquitectura, pipeline CI/CD, IoT, flujos y arquitectura integral |
