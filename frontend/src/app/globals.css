@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* El prototipo usa un solo tema claro; el fondo se fija en el body desde el layout */
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
